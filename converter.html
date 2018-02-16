@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Currency converter</title>
+	<link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<h1>Dollar currency converter</h1>
+	</header>
+	<section class="ccv-frame">
+		<div class="dollar-currency">
+			<input id="toConvertValue" type="number" placeholder="Enter the currency in $" />
+		</div>
+		<div class="convert">
+			<select Id="currencySelector">
+<option value="inr">Indian Rupee</option>
+<option value="pound">British Pound</option>
+<option value="dirham">Dubai Dirham</option>
+</select>
+			<button onclick="convertCurrency()">Convert</button>
+		</div>
+		<div class="other-currency">
+			<input id="convertedValue" type="number" placeholder="0" />
+		</div>
+	</section>
+<footer>&copy; sujithuix copyright 2017</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
