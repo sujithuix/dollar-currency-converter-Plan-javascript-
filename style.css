@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+body,html{
+    height: 100%;
+}
+header{
+    height: 40px;
+    padding: 10px 30px;
+    background: #444;
+}
+header h1{
+    font-size: 20px;
+    color: #eee;
+}
+section{
+    width: 900px;
+    margin: 100px auto; 
+    background: #eee;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow: auto;
+}
+section > div{
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+p{
+    background: #fff;
+}
+input{
+    width: 308px;
+    height: 100px;
+    border: none;
+    font-size: 20px;
+    padding: 5px 15px;;
+}
+
+select{
+    width: 200px;
+    height: 30px;
+    display: block;
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+footer{
+    background: #444;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #eee;
+    font-size: 12px;
+}
